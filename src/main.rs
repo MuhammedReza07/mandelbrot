@@ -1,4 +1,4 @@
-use 
+use complex_numbers::Complex;
 
 fn main() {
     let c = Complex {real: 0.0, imaginary: 0.0};
