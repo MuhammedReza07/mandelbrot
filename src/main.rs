@@ -1,8 +1,8 @@
 use complex_numbers::Complex;
 
 fn main() {
-    let c = Complex {real: -0.5, imaginary: 0.5};
-    let mut s = Complex{real: 0.0, imaginary: 0.0};
+    let c = Complex::new(-0.5, 0.5);
+    let mut s = Complex::new(0.0, 0.0);
     for _ in 0..1000 {
         s = s * s + c;
     }
